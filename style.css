@@ -2,7 +2,6 @@
     font-family: "Hanken Grotesk";
     src: url("assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
 }
-
 .center {
 
     position: absolute;
@@ -15,7 +14,7 @@
     box-shadow: 5px 5px 20px lightblue;
 
 }
-#result{
+#left{
     float: left;
     min-width: 50%;
     height: 100%;
@@ -69,5 +68,26 @@ h3{
 }
 #re{
     font-size: 17px;
+
+}
+#sum{
+    position: relative;
+    left: 35px;
+
+    font-weight: 500;
+
+}
+.renum{
+    padding: 10px;
+    font-family: 'Hanken Grotesk';
+
+}
+.results{
+    border: 2px solid;
+    width: 75%;
+
+}
+.testans{
+    display: inline-block;
 
 }
