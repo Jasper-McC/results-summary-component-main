@@ -84,10 +84,27 @@ h3{
 }
 .results{
     border: 2px solid;
-    width: 75%;
+    width: 245px;
+    height: 40px;
+    position: relative;
+    left: 290px;
 
 }
 .testans{
     display: inline-block;
+    font-family: 'Hanken Grotesk';
+
+}
+#ans{
+    font-weight: 500;
+
+}
+#reaction{
+    color: #fd5555;
+
+}
+#red{
+    background-color: hsl(0, 98%, 66%);
+    opacity: 0.2;
 
 }
